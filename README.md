@@ -27,10 +27,11 @@ Open your Ubuntu Terminal and run the following command to set up the AI environ
 curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
 ```
 **###Step 2: Download the Base Model**
-We use Meta's Llama 3 8B as the foundational brain: (u can choose any model depends on how strong your computer)
+
+We use Meta's Llama 3 8B as the foundational brain: (u can choose any model depends on how strong your computer):
 ollama pull llama3:8b
 ollama pull llama3:9b
-...
+
 **###Step 3: Create the Persona Configuration (Modelfile)**
 1. Create a configuration file:
 nano bot_name.mf
