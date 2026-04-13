@@ -31,7 +31,7 @@ We use Meta's Llama 3 8B as the foundational brain: (u can choose any model depe
 ollama pull llama3:8b
 ollama pull llama3:9b
 ...
-**Step 3: Create the Persona Configuration (Modelfile)**
+**###Step 3: Create the Persona Configuration (Modelfile)**
 1. Create a configuration file:
 nano bot_name.mf
 2. Paste the any contents and save (Ctrl+O -> Enter -> Ctrl+X) (Example):
