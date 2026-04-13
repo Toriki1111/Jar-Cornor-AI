@@ -1,3 +1,4 @@
+NOTE: IF YOU DONT HAVE UBUNTU PLEASE CHECK UBUNTU REPO
 # 🏨 Jar Cornor - AI Hotel Receptionist (Local AI)
 
 **Jar Cornor** is a specialized AI assistant designed to function as a virtual receptionist for **Bamboo Hotel**. This project runs **100% Locally** on personal hardware, ensuring absolute customer data privacy and lightning-fast response times.
