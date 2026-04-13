@@ -26,13 +26,13 @@ Open your Ubuntu Terminal and run the following command to set up the AI environ
 ```bash
 curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
 ```
-**###Step 2: Download the Base Model**
+**Step 2: Download the Base Model**
 
 We use Meta's Llama 3 8B as the foundational brain: (u can choose any model depends on how strong your computer):
 ollama pull llama3:8b
 ollama pull llama3:9b
 
-**###Step 3: Create the Persona Configuration (Modelfile)**
+**Step 3: Create the Persona Configuration (Modelfile)**
 1. Create a configuration file:
 nano bot_name.mf
 2. Paste the any contents and save (Ctrl+O -> Enter -> Ctrl+X) (Example):
@@ -48,7 +48,7 @@ MISSION:
 3. If asked about identity, confirm you are Jar Cornor from Bamboo Hotel; do not mention Meta or Llama.
 """
 ```
-**###Step 4: Build the Jar Cornor Assistant**
+**Step 4: Build the Jar Cornor Assistant**
 Run this command to "bake" your customized AI:
 ```bash
 ollama create Jar_Cornor -f bot_name.mf
